@@ -1,0 +1,131 @@
+*{ 
+    box-sizing: border-box;
+}
+:root{
+    --color1: #d89584;
+    --color2: #f4f4f4;
+}
+body{
+    margin:0;
+    font-family: Arial;
+    line-height: 1.5;
+
+}
+div.cover{
+    background : url(cover_overlay.png) no-repeat center/100% 100%,url(cover.jpg) no-repeat center/ cover ;
+    height:360px;
+    position: relative;
+
+}
+img.cover-profile{
+    height: 130px;
+    position:relative;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+    
+    
+}
+div.cover p{
+    color:lightgrey;
+    text-align: center;
+    margin-top: 4px;
+    font-size: 14px;
+    
+}
+div.cover-contact{
+    position: absolute;
+    top:20px;
+    left:5px;
+    border-left: 4px solid var(--color1);
+    padding-left: 8px;
+}
+div.cover-contact p{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+div.cover-contact p:first-child{
+    margin-bottom: 14px;
+}
+div.cover-contact a{
+    color:white;
+    font-size: 14px;
+}
+a.bouton{
+    color: #d89584;
+    
+    border: 3px solid var(--color1);
+    background-color: #00000040;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 14px;
+    
+}
+a.bouton:hover{
+    color:white;
+    border: 3px solid white;
+}
+div.section-grise1{
+    background: url(triangle2white.svg) no-repeat center bottom/100%;
+    background-color: var(--color2);
+    padding-bottom: 80px
+}
+.section{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+div.section-grise2{
+    background: url(triangle1white.svg) no-repeat center top/100%;
+    background-color: var(--color2);
+    padding-top: 80px
+}
+h2{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 0px;
+}  
+div.separateur{
+    background-color: #979797;
+    height:1px;
+    width: 150px;
+    position: relative;
+    left:50% ;
+    margin-left: -75px;
+    
+
+}
+div.section-grise1 p{
+    font-size: 22px;
+    color: #656565;
+    text-align: center;
+    padding-top: 15px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.tab{
+    margin-left: 30%;
+    text-align: center;
+    
+    font-size: 14px;
+}
+
