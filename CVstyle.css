@@ -320,7 +320,7 @@ div.separateur2{
         width: 400px;
         height: 400px;
         position: absolute;
-        background : url(Langue.png);
+        background : url(pc.png);
         
         
     }
@@ -330,6 +330,9 @@ div.separateur2{
         position: absolute;
         bottom: 0;
         background : url(pc.png) no-repeat center;
+    }
+
+   
 
    
 }
