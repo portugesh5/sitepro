@@ -308,6 +308,67 @@ div.separateur2{
     
 }
 
+@media only screen and (max-width: 800px) {
+    .compet{
+        width: 400px;
+        height: 850px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .globe{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        background : url(Langue.png);
+        
+        
+    }
+    .infor{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        bottom: 0;
+        background : url(pc.png) no-repeat center;
+
+   
+}
+@media only screen and (max-width: 1000px) {
+    div.box{
+        width: 300px;
+        height: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+        position: relative;
+      
+    }
+    .box1{
+        position: absolute;
+        top:0;
+        
+    }
+    .box2{
+        position: absolute;
+        margin-top: 300px;
+        
+        
+       
+        
+        
+    }
+    .box3{
+        position: absolute;
+        right:0px;
+        margin-top: 50px;
+        bottom:0;
+       
+    
+    }
+
+      }
+
 
 
 
